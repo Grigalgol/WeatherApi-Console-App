@@ -24,6 +24,7 @@ public class App {
 
         String cityName = bufferedReader.readLine().trim();
         bufferedReader.close();
+
         String urlString = "http://api.weatherstack.com/current?access_key=ae31e1c978c11fc8ce6102bb0239afbd&query=";
 
         BufferedReader reader;
